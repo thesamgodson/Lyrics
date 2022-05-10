@@ -9,7 +9,7 @@ A app built on python that takes two inputs and merges them to give proper Lyric
 ## Python script to .exe
 Use **pyinstaller**, *nuitka doesn't do well* with kivy gui, and make sure while converting you **do not make a standalone**, that's complex in nature, in this I kept it simple, the 2 following commands are to be run.
 > pyinstaller "main.py" -w --icon=logo.png
-- Now after this go to the "main.py"'s .spec file and paste the following in the first line
+- Now after this go to the main.py's main.spec file and paste the following in the first line
 - "from kivy_deps import sdl2,glew"
 - and after this in coll=COLLECT paste: 
 - **after** a.datas,
