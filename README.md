@@ -2,9 +2,9 @@
 A app built on python that takes two inputs and merges them to give proper Lyrics
 
 ## How to install the modules used in building this app are:
--Kivy => pip install kivi\n
--Pyperclip => pip install pyperclip\n
--pyinstaller => pip install pyinstaller
+1. Kivy => pip install kivi
+2. Pyperclip => pip install pyperclip
+3. Pyinstaller => pip install pyinstaller
 
 ## Python script to .exe
 Use **pyinstaller**, *nuitka doesn't do well* with kivy gui, and make sure while converting you **do not make a standalone**, that's complex in nature, in this I kept it simple, the following commands are to be run.
