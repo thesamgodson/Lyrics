@@ -2,8 +2,8 @@
 A app built on python that takes two inputs and merges them to give proper Lyrics
 
 ## How to install the modules used in building this app are:
--Kivy => pip install kivi
--Pyperclip => pip install pyperclip
+-Kivy => pip install kivi\n
+-Pyperclip => pip install pyperclip\n
 -pyinstaller => pip install pyinstaller
 
 ## Python script to .exe
@@ -16,5 +16,5 @@ Use **pyinstaller**, *nuitka doesn't do well* with kivy gui, and make sure while
   **after** a.datas,
   \*[Tree(p) for p in (sdl2.dep_bins+glew.dep_bins)],
 
-Then update the exe by running the following command
+Then update the exe by running the following command\n
 =>pyinstaller manin.spec -y
